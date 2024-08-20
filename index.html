@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple SPA</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home" onclick="navigate('home')">Home</a></li>
+          <li><a href="#buy" onclick="navigate('buy')">Buy Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section id="home" class="page">
+        <div class="slider">
+          <img id="slideImage" src="Images/1.jpg" alt="Slider Image" />
+        </div>
+      </section>
+
+      <section id="buy" class="page" style="display: none">
+        <h1>Buy Now</h1>
+        <p>Explore our products and make a purchase today!</p>
+        <!-- Add your buy now content here -->
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
