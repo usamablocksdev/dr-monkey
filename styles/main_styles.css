@@ -1309,3 +1309,8 @@ section
 {
 	color: #57ccc3;
 }
+
+.mob_img{
+	display: none !important;
+	margin-bottom: 40px;
+}

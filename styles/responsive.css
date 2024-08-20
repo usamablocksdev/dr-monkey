@@ -209,6 +209,9 @@
 
 @media only screen and (max-width: 767px)
 {
+	.mob_img{
+		display: block !important;
+	}
 	.home_slider_dots
 	{
 		left: calc((100vw - 510px) / 2);
