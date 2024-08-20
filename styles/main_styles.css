@@ -1311,6 +1311,6 @@ section
 }
 
 .mob_img{
+	/* margin-top: 160px; */
 	display: none !important;
-	margin-top: 40px;
 }
