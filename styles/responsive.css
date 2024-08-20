@@ -209,6 +209,9 @@
 
 @media only screen and (max-width: 767px)
 {
+	.home_subtitle{
+		margin-top: 40px;
+	}
 	.mob_img{
 		display: block !important;
 	}
