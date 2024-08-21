@@ -685,9 +685,10 @@ section
 }
 .home_slider_dots
 {
+	width: 100%;
 	position: absolute;
 	bottom: 53px;
-	left: calc((100vw - 1140px) / 2);
+	/* left: calc((100vw - 1140px) / 2); */
 	z-index: 1;
 }
 .home_slider_custom_dot
